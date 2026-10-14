@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 1",
+  "title_slug": "weather-observation-station-1",
+  "difficulty": "Easy",
+  "language": "db2",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-1/problem",
+  "tags": [],
+  "description": "Query a list of **CITY** and **STATE** from the **STATION** table. **\nThe STATION** table is described as follows: **\n![](https://s3.amazonaws.com/hr-challenge-images/9336/1449345840-5f0a551030-Station.jpg)\n\nwhere LAT_N** is the northern latitude and **LONG_W** is the western longitude.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T15:31:47.884Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-1"
+}

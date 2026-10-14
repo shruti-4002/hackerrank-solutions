@@ -1,0 +1,15 @@
+{
+  "title": "Japanese Cities' Names",
+  "title_slug": "japanese-cities-name",
+  "difficulty": "Easy",
+  "language": "db2",
+  "url": "https://www.hackerrank.com/challenges/japanese-cities-name/problem",
+  "tags": [],
+  "description": "Query the names of all the Japanese cities in the **CITY** table. The **COUNTRYCODE** for Japan is `JPN`. **\nThe CITY** table is described as follows:\n\n![](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T15:31:55.127Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "japanese-cities-name"
+}

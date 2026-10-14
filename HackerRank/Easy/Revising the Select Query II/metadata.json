@@ -1,0 +1,15 @@
+{
+  "title": "Revising the Select Query II",
+  "title_slug": "revising-the-select-query-2",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/revising-the-select-query-2/problem",
+  "tags": [],
+  "description": "Query the **NAME** field for all American cities in the **CITY** table with populations larger than `120000`. The *CountryCode* for America is `USA`.\n\nThe **CITY** table is described as follows:\n\n![CITY.jpg](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T15:32:24.519Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "revising-the-select-query-2"
+}

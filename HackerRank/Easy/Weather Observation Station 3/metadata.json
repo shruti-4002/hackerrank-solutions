@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 3",
+  "title_slug": "weather-observation-station-3",
+  "difficulty": "Easy",
+  "language": "db2",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-3/problem",
+  "tags": [],
+  "description": "Query a list of **CITY** names from **STATION** for cities that have an even **ID** number. Print the results in any order, but exclude duplicates from the answer. **\nThe STATION** table is described as follows:\n\n![](https://s3.amazonaws.com/hr-challenge-images/9336/1449345840-5f0a551030-Station.jpg)\n\nwhere **LAT_N** is the northern latitude and **LONG_W** is the western longitude.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T15:31:41.230Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-3"
+}

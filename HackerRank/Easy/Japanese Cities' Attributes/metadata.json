@@ -1,0 +1,15 @@
+{
+  "title": "Japanese Cities' Attributes",
+  "title_slug": "japanese-cities-attributes",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/japanese-cities-attributes/problem",
+  "tags": [],
+  "description": "Query all attributes of every Japanese city in the **CITY** table. The **COUNTRYCODE** for Japan is `JPN`.\n\nThe **CITY** table is described as follows:\n\n![](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T15:32:01.885Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "japanese-cities-attributes"
+}

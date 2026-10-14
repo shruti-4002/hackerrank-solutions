@@ -1,0 +1,15 @@
+{
+  "title": "A Personalized Echo",
+  "title_slug": "bash-tutorials---a-personalized-echo",
+  "difficulty": "Easy",
+  "language": "bash",
+  "url": "https://www.hackerrank.com/challenges/bash-tutorials---a-personalized-echo/problem",
+  "tags": [],
+  "description": "Write a Bash script which accepts  as input and displays the greeting\n\"Welcome (name)\"\n\n**Input Format**\n\nThere is one line of text, .\n\n**Output Format**\n\nOne line: \"Welcome (name)\" (quotation marks excluded). **\nThe evaluation will be case-sensitive.\n\nSample Input 0**\n\n```\nDan\n\n```\n\n**Sample Output 0**\n\n```\nWelcome Dan\n\n```\n\n**Sample Input 1**\n\n```\nPrashant\n\n```\n\n**Sample Output 1**\n\n```\nWelcome Prashant\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T15:30:40.544Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "bash-tutorials---a-personalized-echo"
+}

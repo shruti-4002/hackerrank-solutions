@@ -1,0 +1,15 @@
+{
+  "title": "Revising Aggregations - The Count Function",
+  "title_slug": "revising-aggregations-the-count-function",
+  "difficulty": "Easy",
+  "language": "db2",
+  "url": "https://www.hackerrank.com/challenges/revising-aggregations-the-count-function/problem",
+  "tags": [],
+  "description": "Query a *count* of the number of cities in **CITY** having a *Population* larger than .\n\n**Input Format**\n\nThe **CITY** table is described as follows:\n![](https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-25T19:16:23.116Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "revising-aggregations-the-count-function"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Weather Observation Station 13",
+  "title_slug": "weather-observation-station-13",
+  "difficulty": "Easy",
+  "language": "mysql",
+  "url": "https://www.hackerrank.com/challenges/weather-observation-station-13/problem",
+  "tags": [],
+  "description": "Query the sum of *Northern Latitudes* (*LAT_N*) from **STATION** having values greater than  and less than . Truncate your answer to  decimal places.\n\n**Input Format**\n\nThe **STATION** table is described as follows:\n\n*\n\nwhere LAT_N* is the northern latitude and *LONG_W* is the western longitude.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-25T19:56:55.546Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "weather-observation-station-13"
+}

@@ -13,32 +13,35 @@
 <p>You can return the answer in any order.</p>
 
 <p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-## Examples
+<p><strong>Input:</strong> <code>nums = [2,7,11,15], target = 9</code></p>
 
-<p><strong class="example">Example 1:</strong></p>
+<p><strong>Output:</strong> <code>[0,1]</code></p>
 
-<pre>
-<strong>Input:</strong> nums = [2,7,11,15], target = 9
-<strong>Output:</strong> [0,1]
-<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
-</pre>
+<p><strong>Explanation:</strong></p>
 
-<p><strong class="example">Example 2:</strong></p>
+<p>The sum of <code>nums[0]</code> and <code>nums[1]</code> is <code>2 + 7 = 9</code>, which equals the target. Therefore, the indices <code>[0, 1]</code> are returned.</p>
 
-<pre>
-<strong>Input:</strong> nums = [3,2,4], target = 6
-<strong>Output:</strong> [1,2]
-</pre>
+<p><strong>Example 2:</strong></p>
 
-<p><strong class="example">Example 3:</strong></p>
+<p><strong>Input:</strong> <code>nums = [3,2,4], target = 6</code></p>
 
-<pre>
-<strong>Input:</strong> nums = [3,3], target = 6
-<strong>Output:</strong> [0,1]
-</pre>
+<p><strong>Output:</strong> <code>[1,2]</code></p>
 
-## Constraints
+<p><strong>Explanation:</strong></p>
+
+<p>The sum of <code>nums[1]</code> and <code>nums[2]</code> is <code>2 + 4 = 6</code>, which equals the target. Therefore, the indices <code>[1, 2]</code> are returned.</p>
+
+<p><strong>Example 3:</strong></p>
+
+<p><strong>Input:</strong> <code>nums = [3,3], target = 6</code></p>
+
+<p><strong>Output:</strong> <code>[0,1]</code></p>
+
+<p><strong>Explanation:</strong></p>
+
+<p>The sum of <code>nums[0]</code> and <code>nums[1]</code> is <code>3 + 3 = 6</code>, which equals the target. Therefore, the indices <code>[0, 1]</code> are returned.</p>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
@@ -53,6 +56,14 @@
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
 
+## Examples
+
+
+
+## Constraints
+
+
+
 ## Solution
 
 ```python3
@@ -63,20 +74,17 @@
 
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-       
-       freq={};
-       temp=[];
+        freq={};
+        for i in range(0,len(nums)):
+            need=target-nums[i];
+            if need in freq:
+                return [freq[need],i];
+            
+            freq[nums[i]]=i;
 
-       for x in range(0,len(nums)):
-        need=target-nums[x];
-        if need in freq:
-            temp.append(freq[need]);
-            temp.append(x);
-            return temp;
-        else:
-            freq[nums[x]]=x;
+
+
         
-       return temp;
         
 ```
 

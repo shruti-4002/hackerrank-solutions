@@ -5,18 +5,15 @@
 
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-       
-       freq={};
-       temp=[];
+        freq={};
+        for i in range(0,len(nums)):
+            need=target-nums[i];
+            if need in freq:
+                return [freq[need],i];
+            
+            freq[nums[i]]=i;
 
-       for x in range(0,len(nums)):
-        need=target-nums[x];
-        if need in freq:
-            temp.append(freq[need]);
-            temp.append(x);
-            return temp;
-        else:
-            freq[nums[x]]=x;
+
+
         
-       return temp;
         

@@ -7,9 +7,17 @@ class Solution:
     def rotate(self, nums: list[int], k: int) -> None:
         k=k%len(nums);
 
-        nums.reverse();
-        nums[0:k]=nums[0:k][::-1];
-        nums[k:]=nums[k:][::-1]
+        def rev(nums,start,end):
+            while(start<end):
+                nums[start],nums[end]=nums[end],nums[start];
+                start+=1;
+                end-=1;
+
+        rev(nums,0,len(nums)-1);
+        rev(nums,0,k-1);
+        rev(nums,k,len(nums)-1)
+      
+      
 
 
         

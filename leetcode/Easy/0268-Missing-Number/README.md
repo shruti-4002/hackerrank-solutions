@@ -93,11 +93,15 @@
 
 class Solution:
     def missingNumber(self, nums: list[int]) -> int:
-        sum1=sum(nums);
-        n=len(nums);
-        sum2=(n*(n+1))//2;
-        return sum2-sum1;
+        nums.sort();
+        i=0;
+        for x in nums:
+            if i!=x:
+                return i;
+            else:
+                i+=1;
 
+        return len(nums);
         
 ```
 
